@@ -1,0 +1,98 @@
+/usr/local/bin/test_sender_empfaenger.sh: Using sender binary ./sender
+/usr/local/bin/test_sender_empfaenger.sh: Using empfaenger binary ./empfaenger
+/usr/local/bin/test_sender_empfaenger.sh: Using sender binary ./sender
+/usr/local/bin/test_sender_empfaenger.sh: Using empfaenger binary ./empfaenger
+/usr/local/bin/test_sender_empfaenger.sh: Using a delay time of 15 seconds for the tests 12 and 13
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 0: Test command line parameters - unknown options ----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Exit code indicating failure when calling ./sender with unknown options
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Exit code indicating failure when calling ./empfaenger with unknown options
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 1: Test command line parameters - no options -----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Exit code indicating failure when calling ./sender without options
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Exit code indicating failure when calling ./empfaenger without options
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 2: Test command line parameters - additional parameters -----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Exit code indicating failure when calling ./sender when providing additional parameters
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Exit code indicating failure when calling ./empfaenger when providing additional parameters
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 3: Test command line parameters - invalid number ----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Exit code indicating failure when calling ./sender with an invalid number
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Exit code indicating failure when calling ./empfaenger with an invalid number
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 4: Test command line parameters - huge number (violating the range of long) ----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Exit code indicating failure when calling ./sender with a huge number
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Exit code indicating failure when calling ./empfaenger with a huge number
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 5: Simple transfer of small text file -----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Files /usr/local/etc/small_text_file.txt and /tmp/small_text_file_result.txt.Pbuwz17075 are identical
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17095 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17096 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17095 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17096 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Shared memory segments have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Semaphores have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 6: Transfer of small text file - large buffer -----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17128 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17128 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Files /usr/local/etc/small_text_file.txt and /tmp/small_text_file_result.txt.Pbuwz17075 are identical
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17132 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17132 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Shared memory segments have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Semaphores have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 7: Simple transfer of small text file - -m10 -----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Files /usr/local/etc/small_text_file.txt and /tmp/small_text_file_result.txt.Pbuwz17075 are identical
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17162 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17163 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17162 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17163 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Shared memory segments have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Semaphores have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 8: Simple transfer of small text file - -m   10 -----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Files /usr/local/etc/small_text_file.txt and /tmp/small_text_file_result.txt.Pbuwz17075 are identical
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17195 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17196 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17195 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17196 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Shared memory segments have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Semaphores have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 9: Transfer of small text file - reverse start order -----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17228 is waiting for process ./sender
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Files /usr/local/etc/small_text_file.txt and /tmp/small_text_file_result.txt.Pbuwz17075 are identical
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17232 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17228 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17232 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17228 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Shared memory segments have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Semaphores have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 10: Transfer of small binary file containing char 255 -----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Files /usr/local/etc/small_binary_file.bin and /tmp/small_binary_file_result.bin.yDwiz17074 are identical
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17264 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17265 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17264 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17265 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Shared memory segments have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Semaphores have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 11: Test proper handling of EINTR -----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17297 is still alive
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17297 is still alive
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17305 is still alive
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17305 is still alive
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Files /usr/local/etc/small_binary_file.bin and /tmp/small_binary_file_result.bin.yDwiz17074 are identical
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17297 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17305 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17297 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17305 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Shared memory segments have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Semaphores have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 12: Transfer of huge binary file -----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Files /usr/local/etc/huge_binary_file.bin and /tmp/huge_binary_file_result.bin.vlDsw17076 are identical
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17347 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17346 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17347 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17346 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Shared memory segments have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Semaphores have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;33m----- Test 13: Transfer of huge binary file - stop and continue processes in between -----[0m
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Files /usr/local/etc/huge_binary_file.bin and /tmp/huge_binary_file_result.bin.vlDsw17076 are identical
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17380 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17379 terminated correctly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./sender with PID 17380 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Process ./empfaenger with PID 17379 terminated with exit status 0
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Shared memory segments have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mTest successful:[0m Semaphores have been cleaned up properly
+/usr/local/bin/test_sender_empfaenger.sh: [1;32mALL TESTS SUCCESSFUL[0m
